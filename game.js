@@ -1,5 +1,6 @@
 const BasicCard = require(`./BasicCard.js`);
 const ClozeCard = require(`./ClozeCard.js`);
+// const inquirer = require(`inquirer`);
 
 var command = process.argv[2];
 
