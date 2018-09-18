@@ -4,6 +4,13 @@ const ClozeCard = require(`./ClozeCard.js`);
 
 var command = process.argv[2];
 
+console.log(`
+    node game.js [a, b, c]\n
+    a = Basic Card\n
+    b = Cloze Card\n
+    c = Broken Cloze Card\n
+`)
+
 switch (command) {
   case `a`:
     var firstPresident = new BasicCard(
