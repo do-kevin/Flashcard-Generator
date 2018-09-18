@@ -1,7 +1,15 @@
 const BasicCard = require(`./BasicCard.js`);
 const ClozeCard = require(`./ClozeCard.js`);
+// const inquirer = require(`inquirer`);
 
 var command = process.argv[2];
+
+console.log(`
+    node game.js [a, b, c]\n
+    a = Basic Card\n
+    b = Cloze Card\n
+    c = Broken Cloze Card\n
+`)
 
 switch (command) {
   case `a`:
