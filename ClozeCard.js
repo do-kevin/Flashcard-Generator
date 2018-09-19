@@ -9,5 +9,6 @@ module.exports = function ClozeCard(text, cloze) {
     } else if (text.search(cloze) === -1 || text.search(cloze) === undefined)  {
         console.log(`"${cloze}" does not appear in "${text}"`);
     }
+    
 
 }
